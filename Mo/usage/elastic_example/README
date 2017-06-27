@@ -1,9 +1,0 @@
-Assume your lammps executable is lmp_serial, calculate the elastic constants with the SNAP potential
-with the following command. 
-
-"lmp_serial -in in.elastic"
-
-
-
-NOTE:
-Make sure the snap package is installed during LAMMPS installation
