@@ -7,17 +7,17 @@ The data is provided as a list of dicts. Each dict contains one structure with d
 ```json
 [
     {
-        "structure": Dict representation of Structure as output by pymatgen,
+        "structure": {"Dict representation of Structure as output by pymatgen"},
         "group": "AIMD-NVT",
         "description": "Snapshot 1 of 40 of AIMD NVT simulation at 300 K",
         "data": {
             "energy_per_atom": -1.24324,
             "forces": [],
-            "virial_stress": float
+            "virial_stress": []
         },
         "optimized_params": {
             "bispectrum_coefficients": [],
-            "weight": float
+            "weight": 1000
         }
     },
     ...
