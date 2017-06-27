@@ -23,3 +23,13 @@ The data is provided as a list of dicts. Each dict contains one structure with d
     ...
 ]
 ```
+
+# Data sources
+
+* Surfaces with Miller indices up to 3.
+
+    Tran, R.; Xu, Z.; Radhakrishnan, B.; Winston, D.; Sun, W.; Persson, K. A.; Ong, S. P. Surface energies of elemental crystals. Sci. Data 2016, 3, 160080 DOI: 10.1038/sdata.2016.80.
+
+* Sigma 3 and 5 twist and tilt grain boundaries
+
+    Tran, R.; Xu, Z.; Zhou, N.; Radhakrishnan, B.; Luo, J.; Ong, S. P. Computational study of metallic dopant segregation and embrittlement at Molybdenum grain boundaries. Acta Mater. 2016, 117, 91–99 DOI: 10.1016/j.actamat.2016.07.005.
