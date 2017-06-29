@@ -1,4 +1,4 @@
-## Spectrual neighbor analysis potential 
+# Spectrual neighbor analysis potential 
 
 
 This repository contains spectral neighbor analysis potential (SNAP) models for 
@@ -17,7 +17,7 @@ The structure of the folder organization is as follows
 where the `training` folder contains the original datasets used for developing the model, `element.snapcoeff` and `element.snapparam` are the force field parameters ready for LAMMPS, and `usage` contains examples for running the simulations with developed potentials. 
 
 
-### LAMMPS installation 
+## LAMMPS installation 
 The calculations rely on [LAMMPS package](http://lammps.sandia.gov/). During installation, the SNAP package should be installed by the following command in the `src` directory. 
 > make yes-snap
 
@@ -40,14 +40,14 @@ Usually, the lammps simulations are run by
 assuming the executable is `lmp_serial` and the input file is `foo.in`.
 
 
-### Potential development
+## Potential development
 
 The JSON data file contains all the necessary information for developping the force field. Specifically, you will need the descriptors and the targets. The targets are the DFT computed energies per atom in the structure, atomic forces and stress components, which are stored under "data" in the json file. The descriptors for energy, force and stress are different, even though they share the same coefficients. For bispectrum coefficients calculated with $j_{max}$ = 3, the energy descriptor is the atomic average of bispectrum coefficients having a dimension of (1, 31), the force descriptor is the first derivatives of individual atomic bispectrum coefficients that has a dimension of (n, 31), where n is the number of atoms, and lastly the stress descriptor is a matrix with dimension (6, 31), where 6 corresponds to the unique six components in the stress tensors.
 
 The model coefficients can be fitted by gathering all data in the folder and then by a linear model that relates the descriptors to the targets, with the linear fitting weights listed under "optimized params/weights" in the json file. 
 
 
-### Running examples
+## Running examples
 
 The examples are under the `usage` folder. 
 
