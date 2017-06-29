@@ -1,4 +1,4 @@
-# Spectrual neighbor analysis potential 
+# Spectral neighbor analysis potential 
 
 
 This repository contains spectral neighbor analysis potential (SNAP) models for 
