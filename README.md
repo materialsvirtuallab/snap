@@ -60,36 +60,33 @@ The final results should look like the following:
 =========================================
 Components of the Elastic Constant Tensor
 =========================================
-Elastic Constant C11all = 472.74677443108 GPa
-Elastic Constant C22all = 472.746774452395 GPa
-Elastic Constant C33all = 472.746774442108 GPa
-Elastic Constant C12all = 151.6255440472 GPa
-Elastic Constant C13all = 151.625544047475 GPa
-Elastic Constant C23all = 151.625544050317 GPa
-Elastic Constant C44all = 106.300142462772 GPa
-Elastic Constant C55all = 106.300142457006 GPa
-Elastic Constant C66all = 106.300142455713 GPa
-Elastic Constant C14all = -1.3836227846884e-09 GPa
-Elastic Constant C15all = 1.45629074398045e-09 GPa
-Elastic Constant C16all = 2.84505145804073e-09 GPa
-Elastic Constant C24all = -2.59511946590807e-09 GPa
-Elastic Constant C25all = -1.44417840298876e-09 GPa
-Elastic Constant C26all = -1.8974384224466e-10 GPa
-Elastic Constant C34all = -5.06655308923479e-09 GPa
-Elastic Constant C35all = 1.95395196356453e-09 GPa
-Elastic Constant C36all = 3.99011759849483e-09 GPa
-Elastic Constant C45all = 2.84064660331229e-09 GPa
-Elastic Constant C46all = 3.17902853719524e-09 GPa
-Elastic Constant C56all = 6.75295833345557e-10 GPa
+Elastic Constant C11all = 472.830692948326 GPa
+Elastic Constant C22all = 472.830692952315 GPa
+Elastic Constant C33all = 472.830692945432 GPa
+Elastic Constant C12all = 151.92547560401 GPa
+Elastic Constant C13all = 151.925475607608 GPa
+Elastic Constant C23all = 151.925475607655 GPa
+Elastic Constant C44all = 106.589112603853 GPa
+Elastic Constant C55all = 106.589112606229 GPa
+Elastic Constant C66all = 106.589112606586 GPa
+Elastic Constant C14all = -1.64471728492463e-09 GPa
+Elastic Constant C15all = -3.16276324848469e-09 GPa
+Elastic Constant C16all = 6.3790059985881e-10 GPa
+Elastic Constant C24all = -2.92113212529259e-09 GPa
+Elastic Constant C25all = 5.7165004803867e-10 GPa
+Elastic Constant C26all = 6.09399861920712e-09 GPa
+Elastic Constant C34all = -1.85699578515759e-09 GPa
+Elastic Constant C35all = -1.13746544837262e-09 GPa
+Elastic Constant C36all = 1.70693557054728e-09 GPa
+Elastic Constant C45all = -8.163048780782e-11 GPa
+Elastic Constant C46all = 3.04624246101865e-09 GPa
+Elastic Constant C56all = 1.08037347240268e-09 GPa
 =========================================
 Average properties for a cubic crystal
 =========================================
-Bulk Modulus = 258.665954179508 GPa
-Shear Modulus 1 = 106.300142458497 GPa
-Shear Modulus 2 = 160.560615196765 GPa
-Poisson Ratio = 0.242844757139426
-Total wall time: 0:00:07
-
+Bulk Modulus = 258.89388138718 GPa
+Shear Modulus 1 = 106.589112605556 GPa
+Shear Modulus 2 = 160.452608671134 GPa
+Poisson Ratio = 0.243175631155087
+Total wall time: 0:00:06
 ```
-
-
