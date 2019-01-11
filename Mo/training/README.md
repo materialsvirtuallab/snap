@@ -23,7 +23,9 @@ The data is provided as a list of dicts. Each dict contains one structure with d
     ...
 ]
 ```
+Note that the order for stress is `xx, yy, zz, yz, xz, xy` in this data set, and the unit is in `kB`, same as in VASP. The raw stress data taken from VASP has the order `xx, yy, zz, xy, yz, xz` and the calculated stress from LAMMPS takes the order `xx, yy, zz, xy, zx, yz`. Please make sure that the order is correct and matches the SNAP feature order `xx, yy, zz, yz, xz, xy`. 
 
+The `bispectrum coefficient` has been averaged by the number of atoms in the structure and the `stress descriptor` has been converted from a unit of `eV/A^3` to `kB` (times 1602.1766). 
 # Data sources
 
 * Surfaces with Miller indices up to 3.
