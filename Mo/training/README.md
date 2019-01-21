@@ -15,17 +15,22 @@ The data is provided as a list of dicts. Each dict contains one structure with d
             "forces": [],
             "virial_stress": []
         },
-        "optimized_params": {
+        "optimized parameters": {
             "bispectrum_coefficients": [],
-            "weight": 1000
         }
     },
     ...
 ]
 ```
-Note that the order for stress is `xx, yy, zz, yz, xz, xy` in this data set, and the unit is in `kB`, same as in VASP. The raw stress data taken from VASP has the order `xx, yy, zz, xy, yz, xz` and the calculated stress from LAMMPS takes the order `xx, yy, zz, xy, zx, yz`. Please make sure that the order is correct and matches the SNAP feature order `xx, yy, zz, yz, xz, xy`. 
+Note that the order for stress is `xx, yy, zz, yz, xz, xy` in this data set as in `SNAP` formulism, and the unit is in `kB`, same as in VASP. The raw stress data taken from VASP has the order `xx, yy, zz, xy, yz, xz` and the calculated stress from LAMMPS takes the order `xx, yy, zz, xy, zx, yz`. Please make sure that the order is correct and matches the SNAP feature order `xx, yy, zz, yz, xz, xy`. 
 
 The `bispectrum coefficient` has been averaged by the number of atoms in the structure and the `stress descriptor` has been converted from a unit of `eV/A^3` to `kB` (times 1602.1766). 
+
+To reproduce these results, please use `LAMMPS 17 Nov 2016`. The cutoff radius is `4.61585753 Angstrom` for Mo, with element weight equals to `1`.
+The weights for training data groups are as follows:
+
+![weights]('./weights.png')
+
 # Data sources
 
 * Surfaces with Miller indices up to 3.
