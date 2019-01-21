@@ -29,7 +29,7 @@ The `bispectrum coefficient` has been averaged by the number of atoms in the str
 To reproduce these results, please use `LAMMPS 17 Nov 2016`. The cutoff radius is `4.61585753 Angstrom` for Mo, with element weight equals to `1`.
 The weights for training data groups are as follows:
 
-![weights]('./weights.png')
+![weights](weights.png)
 
 # Data sources
 
