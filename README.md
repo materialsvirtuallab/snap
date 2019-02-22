@@ -16,6 +16,11 @@ The structure of the folder organization is as follows
 ```
 where the `training` folder contains the original datasets used for developing the model, `element.snapcoeff` and `element.snapparam` are the force field parameters ready for LAMMPS, and `usage` contains examples for running the simulations with developed potentials. 
 
+Below are the units of training metrics:
+
+* Energy: `eV`
+* Forces: `eV/Angstrom`
+* Stress: `-1 * kbar`
 
 ## LAMMPS installation 
 The calculations rely on [LAMMPS package](http://lammps.sandia.gov/). During installation, the SNAP package should be installed by the following command in the `src` directory. 
