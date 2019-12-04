@@ -13,4 +13,4 @@ The hyperparameter tuning and fitting procedures are described in detail in our 
 
 
 ### Reference 
-[1]: X. Li, C. Hu, C. Chen, Z. Deng, J. Luo, & S.P. Ong (2018). Quantum-Accurate Spectral Neighbor Analysis Potential Models for Ni-Mo Binary Alloys and FCC Metals. arXiv:1806.04777
+[1]: X. Li, C. Hu, C. Chen, Z. Deng, J. Luo, & S.P. Ong Phys. Rev. B 98, 094104 (2018). Quantum-Accurate Spectral Neighbor Analysis Potential Models for Ni-Mo Binary Alloys and FCC Metals.
