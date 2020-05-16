@@ -54,7 +54,9 @@ The model coefficients can be fitted by gathering all data in the training folde
 
 ## Running examples
 
-The examples are under the `usage` folder. 
+The examples are under the `usage` folder.
+Noting that the current SNAP parameters are compatible with Lammps-2018 version.
+For newer version of Lammps, minor changes may need to be adjusted. 
 
 For example, one can run the `Mo/usage/elastic_example` by simply the following command
 > lmp_serial -in in.elastic 
