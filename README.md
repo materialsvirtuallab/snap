@@ -2,7 +2,7 @@
 
 
 This repository contains spectral neighbor analysis potential (SNAP) models for 
-various elements, including the force field models, the corresponding parameters and training data used to develop the models. For SNAP model training and generate potentials, please use the maml package [https://github.com/materialsvirtuallab/maml](https://github.com/materialsvirtuallab/maml).
+various elements, including the force field models, the corresponding parameters and training data used to develop the models. For SNAP model training and potential generations, please use the maml package [https://github.com/materialsvirtuallab/maml](https://github.com/materialsvirtuallab/maml).
 
 The structure of the folder organization is as follows
 
